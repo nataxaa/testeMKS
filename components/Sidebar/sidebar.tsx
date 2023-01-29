@@ -33,7 +33,7 @@ export default function Sidebar(){
                 <p className="cart-null" >Carrinho Vazio.</p>
                 )}
                 {cart.map((props:itemCartProps)=>(
-                    <div className="cart-product">
+                    <div key={props.id} className="cart-product">
                         <button 
                         className="remove-product"
                         onClick={()=>dispatch(removeCompleteToCart(props))}

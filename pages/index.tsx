@@ -7,7 +7,7 @@ import { api } from './api/hello'
 import { useSelector, useDispatch } from "react-redux";
 import type {RootState } from '../app'
 import { addToCart } from '../redux/cartSlice'
-import { Container } from './style'
+import { Container } from '../styles/style'
 import {AiOutlineFolderAdd} from 'react-icons/ai'
 
 interface productsProps{
@@ -71,8 +71,8 @@ export default function Home(){
 
       <Container>
        {true && (
-        products.map(props=>(
-          <div className='cart'>
+        products.map((props)=>(
+          <div key={props.id} className='cart'>
             <img src={props.photo}/>
             <div className='name-area'>
               <p className='name'>{props.name}</p>
