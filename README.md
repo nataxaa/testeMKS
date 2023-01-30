@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="Barber" title="#delicinha" src="github/logo.png" width="150px" borderRadius="20px" />
+</h1>
 
-## Getting Started
+# Teste MKS
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/nataxaa">
+    <img alt="Author" src="https://img.shields.io/badge/author-nataxaa-33A1F2?style=flat-square">
+  </a>
 
+  <a href="#">
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/nataxaa/GamesAcademyPage-ReactJS?color=33A1F2&style=flat-square">
+  </a>
+
+  <a href="https://github.com/nataxaa/BarberShop/commits/master">
+    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/GamesAcademyPage-ReactJS?color=33A1F2&style=flat-square">
+  </a>
+
+  <a href="#">
+    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/nataxaa/GamesAcademyPage-ReactJS?color=33A1F2&style=flat-square">
+  </a>
+
+</p>
+
+<br />
+
+## 💻 Projeto
+
+Projeto em Next de uma loja que adiciona os produtos ao carrinho de compras, podendo apagar, modificar a quantidade, cálculo total do valor e número de produtos no carrinho.
+É utilizado axios para o consumo da api e redux toolkit para o compartilhamento de dados por toda a aplicação
+<br />
+
+## 🌐 Preview
+
+<h1 align="center">
+    <img src="github/video.gif" />
+</h1>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+
+<br />
+
+## 🔥 Instalação
 ```bash
-npm run dev
-# or
-yarn dev
+$ npm
+$ npm run dev
 ```
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⛅
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [Deploy](https://golden-bunny-32bdc4.netlify.app/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<p align="center">
+  Made with 💙 by <a href="https://www.linkedin.com/in/natan-xavier-a266a0228/"> Natan Xavier </a>
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
